@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Link tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Create an input element with type="text" and id="input-el" -->
+    <!-- Create a SAVE INPUT button with id="input-btn" -->
+    <form action="#">
+        <label for="lead">Enter URL:</label>
+        <input type="text" name="lead" id="input-el" placeholder="https://www.google.com">
+        <div class="buttons">
+            <button type="submit" id="input-btn">SAVE</button>
+            <button id="delete-btn">DELETE ALL</button>
+        </div>
+    </form>
+    <ul id="ul-el"></ul>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
